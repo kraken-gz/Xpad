@@ -1,0 +1,630 @@
+# Catalan translation for xpad
+# Copyright (c) 2016 Rosetta Contributors and Canonical Ltd 2016
+# This file is distributed under the same license as the xpad package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+# Toni Estevez <toni.estevez@gmail.com>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xpad\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2021-12-13 04:36+0000\n"
+"PO-Revision-Date: 2021-05-17 20:02+0000\n"
+"Last-Translator: Toni Estevez <toni.estevez@gmail.com>\n"
+"Language-Team: Catalán, Valenciano <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2021-12-14 06:23+0000\n"
+"X-Generator: Launchpad (build cd8f08e7e7c160b1710e2cad6ba032fb74527860)\n"
+"Language: ca\n"
+
+#: ../src/fio.c:146
+#, c-format
+msgid "Could not write to file %s: %s"
+msgstr "No s'ha pogut escriure al fitxer %s: %s"
+
+#: ../src/help.c:51
+msgid "Error showing the help"
+msgstr "S'ha produït un error en mostrar l'ajuda"
+
+#: ../src/help.c:51
+#, c-format
+msgid ""
+"Could not find the help file %s\n"
+"%s"
+msgstr ""
+"No s'ha pogut trobar el fitxer d'ajuda %s\n"
+"%s"
+
+#: ../src/help.c:70 ../src/xpad-preferences.c:528
+msgid "Close"
+msgstr "Tanca"
+
+#: ../src/help.c:75
+msgid "Help"
+msgstr "Ajuda"
+
+#: ../src/xpad-app.c:131
+msgid "Xpad is a graphical program.  Please run it from your desktop."
+msgstr "L'Xpad és un programa gràfic. Executeu-lo des de l'escriptori."
+
+#: ../src/xpad-app.c:136
+msgid "Xpad"
+msgstr "Xpad"
+
+#: ../src/xpad-app.c:249
+msgid "_Ok"
+msgstr "D'ac_ord"
+
+#: ../src/xpad-app.c:500
+#, c-format
+msgid "Could not open directory %s."
+msgstr "No s'ha pogut obrir la carpeta %s."
+
+#: ../src/xpad-app.c:503
+msgid ""
+"This directory is needed to store preference and pad information.  Xpad will "
+"close now."
+msgstr ""
+"Aquesta carpeta és necessària per a emmagatzemar les preferències i la "
+"informació de les notes. Ara es tancarà l'Xpad."
+
+#: ../src/xpad-app.c:821
+msgid "Show version number and quit"
+msgstr "Mostra el número de versió i surt"
+
+#: ../src/xpad-app.c:822
+msgid "Don't create a new pad on startup if no previous pads exist"
+msgstr ""
+"No creïs una nova nota en iniciar el programa encara que no existeixin notes "
+"anteriors"
+
+#: ../src/xpad-app.c:828
+msgid "Create a new pad on startup even if pads already exist"
+msgstr ""
+"Crea una nota nova en iniciar el programa tot i que ja hi hagi notes "
+"anteriors"
+
+#: ../src/xpad-app.c:829 ../src/xpad-preferences.c:467
+msgid "Hide all pads"
+msgstr "Amaga totes les notes"
+
+#: ../src/xpad-app.c:830
+msgid "Show all pads"
+msgstr "Mostra totes les notes"
+
+#: ../src/xpad-app.c:831
+msgid "Toggle between show and hide all pads"
+msgstr "Commuta entre mostrar i ocultar totes les notes"
+
+#: ../src/xpad-app.c:832
+msgid "Create a new pad with the contents of a file"
+msgstr "Crea una nota nova amb el contingut d'un fitxer"
+
+#: ../src/xpad-app.c:832
+msgid "FILE"
+msgstr "FITXER"
+
+#: ../src/xpad-app.c:833
+msgid "Close all pads"
+msgstr "Tanca totes les notes"
+
+#: ../src/xpad-app.c:864
+#, c-format
+msgid "Xpad %s"
+msgstr "Xpad %s"
+
+#: ../src/xpad-pad.c:191
+#, c-format
+msgid "Could not read file %s."
+msgstr "No s'ha pogut llegir el fitxer %s."
+
+#: ../src/xpad-pad.c:924
+msgid "Delete this pad?"
+msgstr "Voleu eliminar aquesta nota?"
+
+#: ../src/xpad-pad.c:924
+msgid "All text of this pad will be irrevocably lost."
+msgstr "Tot el text d'aquesta nota es perdrà irreversiblement."
+
+#: ../src/xpad-pad.c:929 ../src/xpad-pad.c:1626
+msgid "_Delete"
+msgstr "_Suprimeix"
+
+#: ../src/xpad-pad.c:929
+msgid "_Cancel"
+msgstr "_Cancel·la"
+
+#: ../src/xpad-pad.c:973
+#, c-format
+msgid "'%s' Layout"
+msgstr "Propietats de «%s»"
+
+#: ../src/xpad-pad.c:1448
+msgid "Sticky notes"
+msgstr "Notes adhesives"
+
+#. Translators: please translate this as your own name and optionally email
+#. like so: "Your Name <your@email.com>"
+#: ../src/xpad-pad.c:1452
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Arthur Borsboom https://launchpad.net/~arthurborsboom\n"
+"  Robert Antoni Buj Gelonch https://launchpad.net/~robert-buj\n"
+"  Toni Estevez https://launchpad.net/~toni-estevez"
+
+#: ../src/xpad-pad.c:1625 ../src/xpad-tray.c:151
+msgid "_New"
+msgstr "_Nota nova"
+
+#: ../src/xpad-pad.c:1627
+msgid "_Reload"
+msgstr "_Recarrega"
+
+#: ../src/xpad-pad.c:1628
+msgid "_Close"
+msgstr "_Tanca"
+
+#. Edit submenu
+#: ../src/xpad-pad.c:1631
+msgid "_Edit"
+msgstr "_Edita"
+
+#: ../src/xpad-pad.c:1635
+msgid "_Undo"
+msgstr "_Desfés"
+
+#: ../src/xpad-pad.c:1637
+msgid "_Redo"
+msgstr "_Refés"
+
+#: ../src/xpad-pad.c:1640 ../src/xpad-pad.c:1769
+msgid "_Paste"
+msgstr "_Enganxa"
+
+#: ../src/xpad-pad.c:1643
+msgid "_Find"
+msgstr "_Cerca"
+
+#: ../src/xpad-pad.c:1645
+msgid "_Layout"
+msgstr "_Propietats"
+
+#: ../src/xpad-pad.c:1646
+msgid "_Read only"
+msgstr "_Només lectura"
+
+#. Notes submenu - The list of notes will get added in the prep function below
+#: ../src/xpad-pad.c:1652
+msgid "_Notes"
+msgstr "N_otes"
+
+#: ../src/xpad-pad.c:1657 ../src/xpad-tray.c:158
+msgid "_Show All"
+msgstr "_Mostra totes les notes"
+
+#: ../src/xpad-pad.c:1658 ../src/xpad-tray.c:165
+msgid "_Close All"
+msgstr "_Tanca totes les notes"
+
+#. Help submenu
+#: ../src/xpad-pad.c:1661 ../src/xpad-pad.c:1665 ../src/xpad-tray.c:184
+msgid "_Help"
+msgstr "_Ajuda"
+
+#: ../src/xpad-pad.c:1666
+msgid "_About"
+msgstr "_Quant a"
+
+#: ../src/xpad-pad.c:1671 ../src/xpad-tray.c:180
+msgid "_Preferences"
+msgstr "_Preferències"
+
+#: ../src/xpad-pad.c:1767
+msgid "Cu_t"
+msgstr "Re_talla"
+
+#: ../src/xpad-pad.c:1768
+msgid "_Copy"
+msgstr "_Copia"
+
+#: ../src/xpad-pad.c:1772
+msgid "_Bold"
+msgstr "_Negreta"
+
+#: ../src/xpad-pad.c:1773
+msgid "_Italic"
+msgstr "C_ursiva"
+
+#: ../src/xpad-pad.c:1774
+msgid "_Underline"
+msgstr "_Subratllat"
+
+#: ../src/xpad-pad.c:1775
+msgid "_Strikethrough"
+msgstr "_Ratllat"
+
+#: ../src/xpad-pad-properties.c:104
+msgid "Appearance"
+msgstr "Aparença"
+
+#: ../src/xpad-pad-properties.c:112
+msgid "Use font from xpad preferences"
+msgstr "Utilitza el tipus de lletra de les preferències de l'Xpad"
+
+#: ../src/xpad-pad-properties.c:113
+msgid "Use this font:"
+msgstr "Utilitza aquest tipus de lletra:"
+
+#: ../src/xpad-pad-properties.c:114
+msgid "Use colors from xpad preferences"
+msgstr "Utilitza els colors de les preferències de l'Xpad"
+
+#: ../src/xpad-pad-properties.c:115
+msgid "Use these colors:"
+msgstr "Utilitza aquests colors:"
+
+#: ../src/xpad-pad-properties.c:125
+msgid "Foreground:"
+msgstr "Primer pla:"
+
+#: ../src/xpad-pad-properties.c:133
+msgid "Background:"
+msgstr "Fons:"
+
+#: ../src/xpad-pad-properties.c:147 ../src/xpad-preferences.c:418
+msgid "Set Foreground Color"
+msgstr "Estableix el color del primer pla"
+
+#: ../src/xpad-pad-properties.c:148 ../src/xpad-preferences.c:419
+msgid "Set Background Color"
+msgstr "Estableix el color del fons"
+
+#: ../src/xpad-pad-properties.c:149 ../src/xpad-preferences.c:420
+msgid "Set Font"
+msgstr "Estableix el tipus de lletra"
+
+#. View options
+#: ../src/xpad-preferences.c:253
+msgid "View"
+msgstr "Vista"
+
+#: ../src/xpad-preferences.c:264
+msgid "_Show toolbar"
+msgstr "Mostra la barra d'eines"
+
+#: ../src/xpad-preferences.c:268
+msgid "_Autohide toolbar"
+msgstr "Amaga automàticament la barra d'eines"
+
+#: ../src/xpad-preferences.c:275
+msgid "_Show scrollbar"
+msgstr "Mostra la barra de desplaçament"
+
+#: ../src/xpad-preferences.c:279
+msgid "_Show notes on all workspaces"
+msgstr "Mostra les notes a tots els espais de treball"
+
+#: ../src/xpad-preferences.c:283
+msgid "_Show window decorations"
+msgstr "Mostra la decoració de les finestres"
+
+#: ../src/xpad-preferences.c:287
+msgid "_Hide all notes from the taskbar and possibly the task switcher"
+msgstr ""
+"Amaga totes les notes de la barra de tasques i, possiblement, del commutador "
+"de tasques"
+
+#: ../src/xpad-preferences.c:291
+msgid ""
+"_Hide all notes from the workspace switcher and possibly the task switcher"
+msgstr ""
+"Amaga totes les notes del commutador d'espais de treball i, possiblement, "
+"del commutador de tasques"
+
+#. Layout options
+#: ../src/xpad-preferences.c:296
+msgid "Layout"
+msgstr "Disseny"
+
+#: ../src/xpad-preferences.c:312
+msgid "Use font from theme"
+msgstr "Utilitza el tipus de lletra del tema del sistema"
+
+#: ../src/xpad-preferences.c:313
+msgid "Use this font"
+msgstr "Utilitza aquest tipus de lletra:"
+
+#: ../src/xpad-preferences.c:314
+msgid "Use colors from theme"
+msgstr "Utilitza els colors del tema del sistema"
+
+#: ../src/xpad-preferences.c:315
+msgid "Use these colors"
+msgstr "Utilitza aquests colors:"
+
+#. Size of new pads: input fields
+#: ../src/xpad-preferences.c:319
+msgid "Height new pad"
+msgstr "Alçada de les notes noves:"
+
+#: ../src/xpad-preferences.c:325
+msgid "Width new pad"
+msgstr "Amplada de les notes noves:"
+
+#: ../src/xpad-preferences.c:348
+msgid "Text"
+msgstr "Text:"
+
+#: ../src/xpad-preferences.c:356
+msgid "Background"
+msgstr "Fons:"
+
+#. Start options
+#: ../src/xpad-preferences.c:423
+msgid "Startup"
+msgstr "Inici"
+
+#: ../src/xpad-preferences.c:434
+msgid "_Start Xpad automatically after login"
+msgstr "Inicia l'Xpad automàticament després de l’inici de sessió"
+
+#: ../src/xpad-preferences.c:438
+msgid "_Wait for systray (if possible)"
+msgstr "Minimitza a l'àrea de notificació si és possible"
+
+#: ../src/xpad-preferences.c:449
+msgid "_Open a new empty pad"
+msgstr "Obre una nota nova buida"
+
+#: ../src/xpad-preferences.c:453
+msgid "Delay in seconds"
+msgstr "Retard en segons:"
+
+#: ../src/xpad-preferences.c:464
+msgid "Display pads"
+msgstr "Visualització de les notes:"
+
+#: ../src/xpad-preferences.c:466
+msgid "Open all pads"
+msgstr "Mostra totes les notes"
+
+#: ../src/xpad-preferences.c:468
+msgid "Restore to previous state"
+msgstr "Restableix l'estat previ"
+
+#. Tray options
+#: ../src/xpad-preferences.c:476
+msgid "Tray"
+msgstr "Àrea de notificació"
+
+#: ../src/xpad-preferences.c:487
+msgid "_Enable tray icon"
+msgstr "Activa la icona de l'àrea de notificació"
+
+#: ../src/xpad-preferences.c:490
+msgid "Tray left mouse click behavior"
+msgstr "Comportament del clic esquerre a l'àrea de notificació"
+
+#: ../src/xpad-preferences.c:492
+msgid "Do Nothing"
+msgstr "No facis res"
+
+#: ../src/xpad-preferences.c:493
+msgid "Toggle Show All"
+msgstr "Mostra/oculta totes les notes"
+
+#: ../src/xpad-preferences.c:494
+msgid "List of Pads"
+msgstr "Llista de notes"
+
+#: ../src/xpad-preferences.c:495
+msgid "New Pad"
+msgstr "Nota nova"
+
+#. Other options
+#: ../src/xpad-preferences.c:503
+msgid "Other"
+msgstr "Altres"
+
+#: ../src/xpad-preferences.c:514
+msgid "_Make pads read-only (CTRL-J)"
+msgstr "Fes que les notes siguin només de lectura (CTRL-J)"
+
+#: ../src/xpad-preferences.c:515
+msgid "_Confirm pad deletion"
+msgstr "Confirma la supressió de les notes"
+
+#: ../src/xpad-preferences.c:516
+msgid "Enable _line numbering"
+msgstr "Activa la numeració de les línies"
+
+#: ../src/xpad-preferences.c:530
+msgid "Xpad Preferences"
+msgstr "Preferències de l'Xpad"
+
+#: ../src/xpad-preferences.c:752
+#, c-format
+msgid ""
+"Could not load %s\n"
+"%s"
+msgstr ""
+"No s'ha pogut carregar %s\n"
+"%s"
+
+#: ../src/xpad-preferences.c:753 ../src/xpad-preferences.c:765
+msgid "Failed to change the time delay of starting the Xpad systray"
+msgstr ""
+"No s'ha pogut canviar el retard per iniciar l'Xpad a l'àrea de notificació."
+
+#: ../src/xpad-preferences.c:764
+#, c-format
+msgid ""
+"Could not save %s\n"
+"%s"
+msgstr ""
+"No s'ha pogut desar %s\n"
+"%s"
+
+#: ../src/xpad-settings.c:375 ../src/xpad-settings.c:385
+msgid "Error enabling Xpad autostart"
+msgstr "S'ha produït un error en activar l'inici automàtic de l'Xpad"
+
+#: ../src/xpad-settings.c:375
+#, c-format
+msgid ""
+"Could not create directory %s\n"
+"%s."
+msgstr ""
+"No s'ha pogut crear la carpeta %s\n"
+"%s."
+
+#: ../src/xpad-settings.c:385
+#, c-format
+msgid ""
+"Could not copy %s to %s\n"
+"%s"
+msgstr ""
+"No s'ha pogut copiar %s a %s\n"
+"%s"
+
+#: ../src/xpad-settings.c:402
+msgid "Error disabling Xpad autostart"
+msgstr "S'ha produït un error en desactivar l'inici automàtic de l'Xpad"
+
+#: ../src/xpad-settings.c:402
+#, c-format
+msgid ""
+"Could not delete %s\n"
+"%s"
+msgstr ""
+"No s'ha pogut suprimir %s\n"
+"%s"
+
+#: ../src/xpad-toolbar.c:80
+msgid "Clear Pad Contents"
+msgstr "Esborra el contingut de la nota"
+
+#: ../src/xpad-toolbar.c:80
+msgid "Add C_lear button"
+msgstr "Afegeix el botó «Esborra»"
+
+#: ../src/xpad-toolbar.c:81
+msgid "Close and Save Pad"
+msgstr "Tanca i desa la nota"
+
+#: ../src/xpad-toolbar.c:81
+msgid "Add _Close button"
+msgstr "Afegeix el botó «Tanca»"
+
+#: ../src/xpad-toolbar.c:82
+msgid "Copy to Clipboard"
+msgstr "Copia al porta-retalls"
+
+#: ../src/xpad-toolbar.c:82
+msgid "Add C_opy button"
+msgstr "Afegeix el botó «Copia»"
+
+#: ../src/xpad-toolbar.c:83
+msgid "Cut to Clipboard"
+msgstr "Retalla al porta-retalls"
+
+#: ../src/xpad-toolbar.c:83
+msgid "Add C_ut button"
+msgstr "Afegeix el botó «Retalla»"
+
+#: ../src/xpad-toolbar.c:84
+msgid "Delete Pad"
+msgstr "Suprimeix la nota"
+
+#: ../src/xpad-toolbar.c:84
+msgid "Add _Delete button"
+msgstr "Afegeix el botó «Suprimeix»"
+
+#: ../src/xpad-toolbar.c:85
+msgid "Find text"
+msgstr "Cerca el text"
+
+#: ../src/xpad-toolbar.c:85
+msgid "Add _Find button"
+msgstr "Afegeix el botó «Cerca»"
+
+#: ../src/xpad-toolbar.c:86
+msgid "Open New Pad"
+msgstr "Obre una nota nova"
+
+#: ../src/xpad-toolbar.c:86
+msgid "Add _New button"
+msgstr "Afegeix el botó «Nota nova»"
+
+#: ../src/xpad-toolbar.c:87
+msgid "Paste from Clipboard"
+msgstr "Enganxa des del porta-retalls"
+
+#: ../src/xpad-toolbar.c:87
+msgid "Add Pa_ste button"
+msgstr "Afegeix el botó «Enganxa»"
+
+#: ../src/xpad-toolbar.c:88
+msgid "Edit Preferences"
+msgstr "Edita les preferències"
+
+#: ../src/xpad-toolbar.c:88
+msgid "Add Pr_eferences button"
+msgstr "Afegeix el botó «Preferències»"
+
+#: ../src/xpad-toolbar.c:89
+msgid "Edit Pad Properties"
+msgstr "Edita les propietats de la nota"
+
+#: ../src/xpad-toolbar.c:89
+msgid "Add Proper_ties button"
+msgstr "Afegeix el botó «Propietats»"
+
+#: ../src/xpad-toolbar.c:90
+msgid "Redo"
+msgstr "Refés"
+
+#: ../src/xpad-toolbar.c:90
+msgid "Add _Redo button"
+msgstr "Afegeix el botó «Refés»"
+
+#: ../src/xpad-toolbar.c:91
+msgid "Close All Pads"
+msgstr "Tanca totes les notes"
+
+#: ../src/xpad-toolbar.c:91
+msgid "Add Close _All button"
+msgstr "Afegeix el botó «Tanca totes les notes»"
+
+#: ../src/xpad-toolbar.c:92
+msgid "Undo"
+msgstr "Desfés"
+
+#: ../src/xpad-toolbar.c:92
+msgid "Add _Undo button"
+msgstr "Afegeix el botó «Desfés»"
+
+#: ../src/xpad-toolbar.c:93
+msgid "Add Se_parator"
+msgstr "Afegeix un separador"
+
+#: ../src/xpad-toolbar.c:528
+msgid "Remove All _Buttons"
+msgstr "Suprimeix tots els botons"
+
+#: ../src/xpad-toolbar.c:535
+msgid "Remo_ve Last Button"
+msgstr "Suprimeix l'últim botó"
+
+#: ../src/xpad-tray.c:188
+msgid "_Quit"
+msgstr "_Surt"
+
+#~ msgid "Sticky Notes"
+#~ msgstr "Notes adhesives"
+
+#~ msgid "Jot down notes for later"
+#~ msgstr "Preneu notes per llegir-les més endavant"
